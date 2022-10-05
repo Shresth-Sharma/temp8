@@ -1,0 +1,26 @@
+#upbody{
+    border-style: inset;
+    border-width: 7px;
+    font-size:30px;
+}
+#up_line-1{
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom-style: inset;
+    border-width: 7px;
+}
+#upname_input{
+    min-width:300px;
+    min-height:30px;
+}
+#uppass_input{
+    min-width:300px;
+    min-height:30px;
+}
+#upok{
+    min-width:600px;
+    min-height:60px;
+    background-color:black;
+    color:white;
+    font-size:30px;
+}

@@ -1,0 +1,36 @@
+#settings_body{
+    border-style: inset;
+    border-width: 7px;
+}
+#settings_line-1{
+    display:flex;
+    justify-content: space-evenly;
+}
+#settings_line-2{
+    display:flex;
+    justify-content: space-evenly;
+}
+#color_comb_text{
+    font-size: 30px;
+    text-align:center;
+}
+#color_comb_mode{
+    min-width:100px;
+    min-height:40px;
+}
+#theme_text{
+    font-size: 30px;
+    text-align:center;
+}
+#theme_box{
+    min-width:100px;
+    min-height:40px;
+}
+#color_select_text{
+    font-size: 30px;
+    text-align:center;
+}
+#color_select_mode{
+    min-width:100px;
+    min-height:40px;
+}

@@ -1,0 +1,41 @@
+#alertbc{
+    display:none;
+    position:fixed;
+    z-index:9;
+    background-color:black;
+    top:0px;
+    left:0px;
+    opacity:0.8;
+}
+#alertbc1{
+    display:none;
+    position:fixed;
+    z-index:9;
+    background-color:black;
+    top:0px;
+    left:0px;
+    opacity:q;
+}
+#alertbox{
+    display:none;
+    position:fixed;
+    background-color:black;
+    z-index:10;
+    color:white;
+    color:white;
+    border-style: inset;
+    border-width:7px;
+    border-radius: 20px;
+    text-align: center;
+}
+#alerthead{
+    border-bottom-style: inset;
+    border-width:7px;
+}
+#alertbt{
+    position:fixed;
+    background-color:black;
+    color:white;
+    border-style: inset;
+    border-width:3px;
+}

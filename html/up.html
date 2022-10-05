@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Shresth Sharma</title>
+        <link rel="shortcut icon" href="../photos/logo.png">
+        <link rel="stylesheet" type="text/css" href="../css/top.css">
+        <link rel="stylesheet" type="text/css" href="../css/assets.css">
+        <link rel="stylesheet" type="text/css" href="../css/alert.css">
+        <link rel="stylesheet" type="text/css" href="../css/up.css">
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDCJ8aDj1aNAabamLYsFbMlUArYmzdvGWo",
+    authDomain: "shresth-sharma-v3.firebaseapp.com",
+    databaseURL: "https://shresth-sharma-v3-default-rtdb.firebaseio.com",
+    projectId: "shresth-sharma-v3",
+    storageBucket: "shresth-sharma-v3.appspot.com",
+    messagingSenderId: "52938966152",
+    appId: "1:52938966152:web:7f3b056755e84853fe0b3d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    </head>
+    <body id="body">
+        <script src="../js/main.js"></script>
+        <div id="alertbc1"></div>
+        <div class="top">
+            <div class="nav">
+                <div id="home">
+                    <button id="homebutton" onclick="homeclicked()" onmouseover="mouseonhome()" onmouseLeave="mouseleavehome()">HOME</button>
+                </div>
+                <div id="menu">
+                    <button id="menubutton" onmouseover="mouseonmenu()" onmouseLeave="mouseleavemenu()">Menu</button>
+                    <div id="menudropdown">
+                        <a class="dw" href="../html/aboutme.html" target="_blank"  onmouseover="mouseonmenu_1()" onmouseLeave="mouseleavemenu_1()">About Me</a>
+                        <a class="dw" href="../html/feedback.html" target="_blank"  onmouseover="mouseonmenu_2()" onmouseLeave="mouseleavemenu_2()">Feedback!</a>
+                        <a class="dw" href="../html/seetings.html" target="_blank"  onmouseover="mouseonmenu_3()" onmouseLeave="mouseleavemenu_3()">Settings</a>
+                    </div>
+                </div>
+                <div id="social">
+                    <button id="socialbutton" onmouseover="mouseonsocial()" onmouseLeave="mouseleavesocial()">Social Media</button>
+                    <div id="socialdropdown">
+                        <a class="dw" onclick="discordclicked()"  onmouseover="mouseonsocial_1()" onmouseLeave="mouseleavesocial_1()">Discord</a>
+                    </div>
+                </div>
+                <div id="contact">
+                    <button id="contactbutton" onmouseover="mouseoncontact()" onmouseLeave="mouseleavecontact()">Contact Me</button>
+                    <div id="contactdropdown">
+                        <a class="dw" onclick="gmailclicked()"  onmouseover="mouseoncontact_1()" onmouseLeave="mouseleavecontact_1()">G-mail</a>
+                    </div>
+                </div>
+                <div id="feedback">
+                    <button onclick="feedbackclicked()" id="feedbackbutton" onmouseover="mouseonfeedback()" onmouseLeave="mouseleavefeedback()">FeedBack!</button>
+                </div>
+                <div id="in">
+                    <button onclick="inclicked()" id="inbutton" onmouseover="mouseonin()" onmouseLeave="mouseleavein()">Sign-In</button>
+                </div>
+                <div id="up">
+                    <button onclick="upclicked()" id="upbutton" onmouseover="mouseonup()" onmouseLeave="mouseleaveup()">Sign-Up</button>
+                </div>
+            </div>
+            <br><br><br><br>
+            <center id="cen">
+                <img id="photo" src="../photos/My_Photo.png" width="200"><br>
+                <h1 id="name">Sign-Up</h1><br>
+               
+            </center>
+        </div>
+        <div id="alertid">
+            <div id="alertbc"></div>
+            <div id="alertbox">
+                <h2 id="alerthead">----</h2>
+                <center><p id="alertp">====</p></center>
+                <button id="alertbt" onclick="closealert()">OK!</button>
+            </div>
+        </div>
+        <div id="upbody">
+            <br><br>
+            <div id="up_line-1">
+                <div>
+                    <label id="up_text">Username : </label><input type="text" id="upname_input" placeholder="Username">
+                </div>
+                <div>
+                    <label id="up_text">Password : </label><input type="text" placeholder="Password" id="uppass_input">
+                </div>
+                <br><br>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <center>
+                        <button onclick="upok()" id="upok">Sign-Up</button>
+                    </center>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.6/platform.min.js"></script>
+        <script src="../js/up.js"></script>
+        <script src="../js/top.js"></script>
+        <script src="../js/assets.js"></script>
+    </body>
+</html>

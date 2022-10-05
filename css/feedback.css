@@ -1,0 +1,50 @@
+#feedbackbody{
+    border-style: inset;
+    border-width: 7px;
+    font-size:30px;
+}
+#feedback_line-1{
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom-style: inset;
+    border-width: 7px;
+}
+#name_input{
+    min-width:300px;
+    min-height:30px;
+}
+#mail_input{
+    min-width:300px;
+    min-height:30px;
+}
+#feedback_line-2{
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom-style: inset;
+    border-width: 7px;
+}
+#stargrp{
+    display:flex;
+    justify-content: space-evenly;
+}
+#feedback_line-3{
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom-style: inset;
+    border-width: 7px;
+}
+#feedbackdetailinput{
+    min-width:600px;
+    min-height:60px;
+}
+#suggestioninput{
+    min-width:600px;
+    min-height:60px;
+}
+#feedbackok{
+    min-width:600px;
+    min-height:60px;
+    background-color:black;
+    color:white;
+    font-size:30px;
+}

@@ -1,0 +1,219 @@
+
+.top{
+    border-style:inset;
+    border-width:7px;
+    font-family: Soda_Berry;
+}
+#name{
+    font-size:60px;
+    font-family: name;
+}
+.nav{
+    background-color:black;
+     color:white;
+     position:relative
+}
+.nav a{
+    
+    float:left;
+    padding:0px;
+    font-size:30px;
+}
+#home{
+    background-color:black;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;         
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#homebutton{
+    font-family: Soda_Berry;
+    border-style: inset;
+    border-width:7px;
+    border-radius: 20px;
+    background-color:black;
+     color:white;
+font-size:20px;
+    background-color:black;
+    padding-left:20px;
+padding-right:20px;         padding-top:10px;
+    padding-bottom:10px;
+}
+#menu{
+    background-color:black;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;         
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#menubutton{
+    font-family: Soda_Berry;
+    border-style: inset;
+    border-width:7px;
+    border-radius: 20px;
+    background-color:black;
+     color:white;
+font-size:20px;
+    background-color:black;
+    padding-left:20px;
+padding-right:20px;         padding-top:10px;
+    padding-bottom:10px;
+}
+#menudropdown{
+    display:none;
+    z-index:1;
+    position:absolute;
+}
+#menudropdown a{
+    display:block;
+    float:none;
+    min-width:200px;
+    padding:10px;
+border-style: inset;
+border-width:7px;
+border-radius: 10px;
+}
+#social{
+    background-color:black;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;         
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#socialbutton{
+    font-family: Soda_Berry;
+    border-style: inset;
+    border-width:7px;
+    border-radius: 20px;
+    background-color:black;
+     color:white;
+font-size:20px;
+    background-color:black;
+    padding-left:20px;
+padding-right:20px;         padding-top:10px;
+    padding-bottom:10px;
+}
+#socialdropdown{
+    display:none;
+    z-index:1;
+    position:absolute;
+}
+#socialdropdown a{
+   display:block;
+    float:none;
+    min-width:200px;
+    padding:10px;
+border-style: inset;
+border-width:7px;
+border-radius: 10px;
+}
+#contact{
+    background-color:black;
+    float:left;
+    padding-left:5px;
+    padding-right:5px;         
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#contactbutton{
+    font-family: Soda_Berry;
+    border-style: inset;
+    border-width:7px;
+    border-radius: 20px;
+    background-color:black;
+     color:white;
+font-size:20px;
+    background-color:black;
+    padding-left:20px;
+padding-right:20px;         padding-top:10px;
+    padding-bottom:10px;
+}
+#contactdropdown{
+    display:none;
+    z-index:1;
+    position:absolute;
+}
+#contactdropdown a{
+   display:block;
+    float:none;
+    min-width:200px;
+    padding:10px;
+border-style: inset;
+border-width:7px;
+border-radius: 10px;
+}
+#up{
+    background-color:black;
+    float:right;
+    padding-left:5px;
+    padding-right:5px;         
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#upbutton{
+    font-family: Soda_Berry;
+    border-style: inset;
+    border-width:7px;
+    border-radius: 20px;
+    background-color:black;
+     color:white;
+font-size:20px;
+    background-color:black;
+    padding-left:20px;
+padding-right:20px;         padding-top:10px;
+    padding-bottom:10px;
+}
+#in{
+    background-color:black;
+    float:right;
+    padding-left:5px;
+    padding-right:5px;         
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#inbutton{
+    font-family: Soda_Berry;
+    border-style: inset;
+    border-width:7px;
+    border-radius: 20px;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    background-color:black;
+    padding-left:20px;
+    padding-right:20px;         padding-top:10px;
+    padding-bottom:10px;
+}
+#feedback{
+    background-color:black;
+    float:right;
+    padding-left:5px;
+    padding-right:5px;         
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#feedbackbutton{
+    font-family: Soda_Berry;
+    border-style: inset;
+    border-width:7px;
+    border-radius: 20px;
+    background-color:black;
+     color:white;
+font-size:20px;
+    background-color:black;
+    padding-left:20px;
+padding-right:20px;         padding-top:10px;
+    padding-bottom:10px;
+}
+#menu:hover #menudropdown{
+    display:block;
+}
+#social:hover #socialdropdown{
+    display:block;
+}
+#contact:hover #contactdropdown{
+    display:block;
+}

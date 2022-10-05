@@ -1,0 +1,26 @@
+#inbody{
+    border-style: inset;
+    border-width: 7px;
+    font-size:30px;
+}
+#in_line-1{
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom-style: inset;
+    border-width: 7px;
+}
+#inname_input{
+    min-width:300px;
+    min-height:30px;
+}
+#inpass_input{
+    min-width:300px;
+    min-height:30px;
+}
+#inok{
+    min-width:600px;
+    min-height:60px;
+    background-color:black;
+    color:white;
+    font-size:30px;
+}
